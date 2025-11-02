@@ -25,14 +25,32 @@ Aplicación de escritorio para gestionar tickets de soporte técnico. Permite re
 
 ## ventanas del sisitema
 
+aqui los empleados de la empresa podran iniciar sesion para acceder a la pagina de tickets
 
+![inicio sesion](./img_proyect/inicio_sesion.png)
+
+aqui es donde los empleados podran realizar un ingreso de ticket donde pondran el sector o otro diferente al suyo 
+una descripcion para tener nocion del problema etc
+
+![tickets general](./img_proyect/tickets_general.png)
+
+esta se despliega al momento de seleccionar un registro en la tabla pero estas opciones solo estan disponibles para los encargados de soportes o mantencion
+![ticket especificos](./img_proyect/ticket_especific.png)
 
 ## mer(entidad relacion)
+
+<img width="710" height="143" alt="image" src="https://github.com/user-attachments/assets/3368f686-fc7d-45a0-8a98-04822eeccb00" />
+
+personas 1Nm tickets
+
+tickets mN1 personas
+
 
 ##  Instalación
 
 ```bash
-git clone https://github.com/tu_usuario/nombre_del_repo.git
+git clone https://github.com/tu_usuario/tickets_soporte.git
 cd nombre_del_repo
 pip install -r requirements.txt
 python main.py
+
