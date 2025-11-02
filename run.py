@@ -1,6 +1,6 @@
 from config.database import Base,engine
 from app.models import iniciarsesion
-from testeos.bd_personal import busqueda_personal, pruebas_bd_personal
+from testeos.bd_personal import pruebas_bd_personal
 from testeos.bd_tickets import pruebas_db_tickets
 
 
@@ -21,7 +21,7 @@ class funciones_generales:
  
  def buscar_usuario():
 
-    busqueda_personal.buscar_usuario()
+    pruebas_bd_personal.buscar_usuario()
  def modificar_ticket():
     
     pruebas_db_tickets.modificar()
@@ -29,6 +29,10 @@ class funciones_generales:
  def eliminar_ticket():
     
     pruebas_db_tickets.eliminar()
+
+ def agregar_ticket():
+    
+    pruebas_db_tickets.agregar_ticket()
 
 
 funciones_generales.ejecutar_programa()
