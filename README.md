@@ -51,15 +51,19 @@ tickets mN1 personas
 
 Este proyecto ya cuenta con integración de SQLAlchemy y control de acceso por roles de usuario. Las mejoras planificadas incluyen:
 
-Optimizar la estructura de la base de datos, eliminando campos innecesarios y ajustando relaciones para mayor coherencia.
-
-Refinar la interfaz gráfica, mejorando la usabilidad y adaptabilidad en pantallas más pequeñas.
+Optimizar la estructura de la base de datos, eliminando campos innecesarios y ajustando relaciones para mayor coherencia. 
 
 Agregar validaciones más robustas y manejo automático de errores en formularios.
 
 Incorporar reportes o estadísticas para visualizar métricas de tickets por estado, prioridad o sector.
 
 Preparar el proyecto para migración a Django si se decide escalar o llevarlo a web en el futuro.
+
+##mejoras terminadas
+
+interfaz adaptativa para que se ajuste bien tanto a pequeñas como a grandes pantallas
+
+
 
 
 ##  Instalación
