@@ -69,8 +69,7 @@ interfaz adaptativa para que se ajuste bien tanto a pequeñas como a grandes pan
 ##  Instalación
 
 ```bash
-git clone https://github.com/tu_usuario/tickets_soporte.git
-cd nombre_del_repo
-pip install -r requirements.txt
-python main.py
+git clone https://github.com/antoniobussines/tickets_soporte.git
+cd ticket gestion
+python run.py
 
